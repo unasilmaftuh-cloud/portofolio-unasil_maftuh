@@ -190,7 +190,7 @@ const useTypingEffect = (words: string[], typingSpeed = 100, deletingSpeed = 50,
 };
 
 // Scroll Reveal Component Wrapper
-const Reveal = ({ children, delay = 0, className = "" }) => {
+const Reveal = ({ children, delay = 0, className = "" }: { children: React.ReactNode, delay?: number, className?: string }) => {
   const [isVisible, setIsVisible] = useState(false);
   const ref = useRef(null);
 
