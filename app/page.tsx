@@ -232,7 +232,7 @@ export default function App() {
   const [theme, setTheme] = useState('dark'); // Default dark
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeFilter, setActiveFilter] = useState("All");
-  const [selectedProject, setSelectedProject] = useState(null);
+  const [selectedProject, setSelectedProject] = useState<any>(null);
   const [showScrollTop, setShowScrollTop] = useState(false);
   
   const typedRole = useTypingEffect(PERSONAL_INFO.role);
@@ -273,7 +273,7 @@ export default function App() {
     }
   };
 
-  const scrollToSection = (id) => {
+  const scrollToSection = (id: string) => {
     setIsMenuOpen(false);
     const element = document.getElementById(id);
     if (element) {
@@ -346,7 +346,7 @@ export default function App() {
               <div>
                 <h4 className="font-semibold text-gray-900 dark:text-white mb-2">Tech Stack / Tools</h4>
                 <div className="flex flex-wrap gap-2">
-                  {selectedProject.tech.map(t => (
+                  {selectedProject.tech.map((t: string) => (
                     <span key={t} className="px-3 py-1 text-sm bg-white/60 dark:bg-black/40 text-gray-900 dark:text-gray-100 rounded-md border border-white/50 dark:border-white/10 shadow-sm">
                       {t}
                     </span>
