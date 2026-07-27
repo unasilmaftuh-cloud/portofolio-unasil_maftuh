@@ -159,7 +159,7 @@ const PROJECTS = [
   }
 ];
 
-const useTypingEffect = (words, typingSpeed = 100, deletingSpeed = 50, pauseTime = 2000) => {
+const useTypingEffect = (words: string[], typingSpeed = 100, deletingSpeed = 50, pauseTime = 2000) => {
   const [text, setText] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
   const [loopNum, setLoopNum] = useState(0);
