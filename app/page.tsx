@@ -10,23 +10,15 @@ import {
 
 const PERSONAL_INFO = {
   name: "Unasil Maftuh",
-  role: ["Informatics Student", "Graphic Designer", "Web Developer"],
+  role: ["Informatics Student", "Graphic Designer", "Web Development"],
   description: "Mahasiswa Informatika UIN Sunan Kalijaga yang bersemangat dalam menggabungkan estetika desain visual dengan fungsionalitas kode. Berpengalaman dalam Graphic Design dan Web Development.",
-  email: "unasil.maftuh@gmail.com", // Ganti dengan email asli
-  phone: "6285172260107", // Ganti dengan nomor WA asli
+  email: "unasil.maftuh@gmail.com",
+  phone: "6285172260107",
   instagram: "maftuhunas._",
   linkedin: "unasil-maftuh-039768360",
   github: "unasilmaftuh-cloud",
   location: "Yogyakarta, Indonesia"
 };
-
-const SKILLS = [
-  { name: "UI/UX Design", icon: Layout, progress: 85, desc: "Figma, Wireframing, Prototyping" },
-  { name: "Graphic Design", icon: PenTool, progress: 90, desc: "Photoshop, Illustrator, Canva" },
-  { name: "Frontend Dev", icon: Code2, progress: 80, desc: "React, Next.js, Tailwind CSS" },
-  { name: "Backend Dev", icon: Database, progress: 70, desc: "PHP, MySQL, Node.js" },
-  { name: "Responsive Web", icon: Smartphone, progress: 85, desc: "Mobile-first approach" },
-];
 
 const TECH_STACK = [
   "Figma", "Canva", 
