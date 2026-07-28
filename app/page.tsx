@@ -10,7 +10,7 @@ import {
 
 const PERSONAL_INFO = {
   name: "Unasil Maftuh",
-  role: ["Informatics Student", "Graphic Designer"],
+  role: ["Informatics Student", "Graphic Designer", "Web Developer"],
   description: "Mahasiswa Informatika UIN Sunan Kalijaga yang bersemangat dalam menggabungkan estetika desain visual dengan fungsionalitas kode. Berpengalaman dalam Graphic Design dan Web Development.",
   email: "unasil.maftuh@gmail.com", // Ganti dengan email asli
   phone: "6285172260107", // Ganti dengan nomor WA asli
@@ -42,9 +42,9 @@ const EDUCATION = [
     desc: "Fokus pada pengembangan web, rekayasa perangkat lunak, dan perancangan antarmuka (UI/UX)."
   },
   {
-    year: "Lulusan",
+    year: "2022 - 2025",
     title: "Teknik Jaringan Komputer & Telekomunikasi (TJKT)",
-    org: "Sekolah Menengah Kejuruan (SMK)",
+    org: "SMK Syubbanul Wathon Tegalrejo Magelang",
     desc: "Mempelajari dasar infrastruktur jaringan, hardware komputer, dan sistem operasi."
   }
 ];
@@ -60,7 +60,7 @@ const EXPERIENCES = [
     year: "2024",
     title: "Internship (PKL)",
     org: "Gime Muyufar",
-    desc: "Mempraktikkan langsung ilmu teknis dan jaringan di lingkungan kerja nyata."
+    desc: "Merancang, membangun, dan menyelesaikan game edukasi kuis matematika berbasis Unity untuk siswa kelas 2 SD, mulai dari konsep, implementasi fitur, hingga menghasilkan aplikasi Android (APK) yang siap digunakan."
   }
 ];
 
@@ -82,7 +82,7 @@ const PROJECTS = [
     title: "Dokumentasi Kegiatan Ziarah",
     category: "Dokumentasi",
     image: "/images/ziaroh.png",
-    desc: "Dokumentasi visual untuk kegiatan ziarah, mencakup foto dan video dari berbagai momen penting.",
+    desc: "Dokumentasi visual untuk kegiatan ziarah, mencakup foto dari berbagai momen penting.",
     purpose: "Menciptakan dokumentasi yang lengkap dan menarik untuk kegiatan ziarah.",
     tech: ["Canva"],
     featured: false
@@ -93,7 +93,7 @@ const PROJECTS = [
     category: "Pamflet",
     image: "/images/kenaikan.png",
     desc: "Desain pamflet untuk perayaan Kenaikan Yesus Kristus, menekankan pesan kebangkitan dan harapan.",
-    purpose: "Meningkatkan pemahaman masyarakat tentang pentingnya perayaan Kenaikan.",
+    purpose: "Meningkatkan pemahaman masyarakat tentang pentingnya perayaan Kenaikan Yesus Kristus.",
     tech: ["Canva"],
     featured: false
   },
@@ -102,7 +102,7 @@ const PROJECTS = [
     title: "Dokumentasi Kegiatan Badminton",
     category: "Dokumentasi",
     image: "/images/badminton.png",
-    desc: "Dokumentasi visual untuk kegiatan badminton, mencakup foto dan video dari berbagai momen penting.",
+    desc: "Dokumentasi visual untuk kegiatan badminton, mencakup foto dari berbagai momen penting.",
     purpose: "Menciptakan dokumentasi yang lengkap dan menarik untuk kegiatan badminton.",
     tech: ["Canva"],
     featured: false
